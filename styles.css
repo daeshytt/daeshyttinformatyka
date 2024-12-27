@@ -1,0 +1,129 @@
+body {
+    font-family: Rockwell, rockwell;
+    margin: 20px;
+    text-align: center;
+    background-color: #DCECEC;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #222D6D;
+    transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.title h1:hover {
+    color: #6D75F1; 
+    text-shadow: 0 0 10px #FFB6C3, 0 0 20px #FFB6C3, 0 0 30px #FFB6C3;
+}
+
+.title img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+}
+
+
+.image-container img {
+    border-radius: 50%;
+    border: 5px solid #222D6D;
+    width: 80px;
+    height: 80px;
+}
+
+.content {
+ display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-top: 10px;
+    
+    .text-gif-section {
+    text-align: center;
+}
+
+.text-gif-section p {
+  
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #6D75F1;
+}
+
+.gif-container_1 img {
+      max-width: 15%;
+    height: auto;
+
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    border: #B2626C;
+    border-radius: 20px;
+    color: #7B3638;
+    overflow: hidden; /* Ensures the table respects the rounded corners */
+    width: fit-content;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #F4E7EF;
+}
+
+th, td {
+    border: 4px solid #B2626C;
+    padding: 10px;
+    text-align: center;
+}
+
+.rectangles {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    }
+    
+.rectangle_1{
+    width: 140px;
+    height: 50px;
+    background-color: #C0E876;
+    border-radius: 10px;
+    border: 3px solid #A7BF2E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.rectangle_2 {
+    width: 120px;
+    height: 50px;
+    background-color: #FF5F6F;
+    border-radius: 10px;
+    border: 3px solid #BC2C3D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.rectangle_1:hover {
+        transform: translateY(-10px);
+}
+.rectangle_2:hover {
+        transform: translateY(-10px);
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; 
+}
+
+.gif-container img {
+    max-width: 10%; 
+    height: auto;
+  
+}
